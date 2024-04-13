@@ -23,7 +23,7 @@ body {
 
 .cabecalho-lista-item{
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 20px;
     font-size: 24px;
 }
 
@@ -32,7 +32,6 @@ body {
 }
 
 .escola{
-    background-image: linear-gradient(#fff,#86B6FF);
     color: #000;
     display: flex;
     justify-content: center;
@@ -58,5 +57,26 @@ body {
 
 .estudante-div{
     text-align: center;
+    padding: 16px 0;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: #fff;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 110px;
+    padding: 12px 0;
 }
  
